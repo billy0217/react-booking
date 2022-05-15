@@ -1,0 +1,92 @@
+.c-hotels-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.c-hotels-wrapper {
+	width: 100%;
+	max-width: 1400px;
+	display: flex;
+	gap: 20px;
+}
+
+.c-hotel__search {
+	flex: 1;
+	background-color: #febb02;
+	padding: 10px;
+	border-radius: 10px;
+	position: sticky;
+	top: 10px;
+	height: max-content;
+	max-width: 300px;
+}
+
+.c-hotel__search-title{
+	font-size: 20px;
+	color: #555;
+	margin-bottom: 10px;
+}
+
+.c-hotel__search-item{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	margin-bottom: 10px;
+}
+
+.c-hotel__search-label{
+	font-size: 12px;
+}
+
+.c-hotel__search-input{
+	height: 30px;
+	border: none;
+	padding: 5px;
+	background-color: #fff;
+	align-items: center;
+	display: flex;
+}
+
+.c-hotel__search-span{
+	height: 30px;
+	padding: 5px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.c-hotel__search-options{
+	padding: 10px;
+}
+
+.c-hotel__search-option-item{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	color: #555;
+	font-size: 12px;
+}
+
+.c-hotel__search-input__option{
+	width: 50px;
+}
+
+.c-hotel__search-button{
+	padding: 10px;
+	background-color: #0071c2;
+	color: white;
+	border: none;
+	width: 100%;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.listResult {
+	flex: 3;
+}
+
+.c-hotel__lists {
+	flex: 1;
+}

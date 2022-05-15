@@ -1,0 +1,32 @@
+.c-properties{
+	width: 100%;
+	max-width: 14000px;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.c-property{
+	flex:1;
+	border-radius: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.c-property__img{
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+}
+
+.c-property__info{
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.c-property__title{
+	font-size: 18px;
+	color: #444;
+	margin-bottom: 0;
+}

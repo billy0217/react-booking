@@ -1,0 +1,27 @@
+.c-navbar {
+	height: 50px;
+	background-color: #003580;
+	display: flex;
+	justify-content: center;
+}
+
+.c-navbar-container {
+	width: 100%;
+	max-width: 1400px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.c-logo {
+	font-weight: 700;
+}
+
+.c-nav__item {
+	margin: 0 20px;
+	border: none;
+	padding: 5px 10px;
+	color: #003580;
+	cursor: pointer;
+}

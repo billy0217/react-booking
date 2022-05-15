@@ -1,0 +1,30 @@
+.c-featured{
+	width: 100%;
+	max-width: 1400px;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	z-index: 1;
+}
+
+.c-featured__item{
+	position: relative;
+	color: white;
+	border-radius: 10px;
+	overflow: hidden;
+	height: 250px;
+	flex:1;
+	z-index: 0;
+}
+
+.c-featured__item-img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.c-featured__item-info{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
